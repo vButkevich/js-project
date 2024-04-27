@@ -88,8 +88,16 @@
   }
 }
 
+
+.ac {
+  background-color: transparent !important;
+}
+
 .aboutme-info-item {
   margin-bottom: 32px;
+}
+.aboutme-info-item:last-child {
+  margin-bottom: 0;
 }
 
 .aboutme-info-header {
@@ -105,6 +113,8 @@
   line-height: 150%;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+
+  cursor: pointer;
 }
 .aboutme-info-btn {
   display: flex;
@@ -220,10 +230,10 @@
   }
 }
 
-.swiper {
+/* .swiper {
   width: 111px;
   height: 30px;
 }
 .swiper-button-next {
   color: #fff;
-}
+} */

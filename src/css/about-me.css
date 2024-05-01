@@ -115,7 +115,9 @@
 
 .aboutme-item-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+
   color: rgba(250, 250, 250, 0.4);
   font-size: 16px;
   font-weight: 600;
@@ -144,6 +146,7 @@
   transition: transform 300ms ease-in-out;
 }
 
+.aboutme-item-header:hover .aboutme-accordion-btn,
 .aboutme-accordion-btn:hover,
 .aboutme-accordion-btn:focus {
   border: 1px solid #fff;
@@ -205,8 +208,6 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   flex-direction: row;
-  /* flex-shrink: 0; */
-
   min-width: 0;
 }
 
@@ -227,7 +228,6 @@
   overflow: hidden;
   width: 260px;
   min-width: 0;
-  /* margin-right: 55px; */
 }
 
 .aboutme-swiper-wrapper {
@@ -267,7 +267,6 @@
   fill: none;
   cursor: pointer;
   stroke: #3b3b3b;
-  /* stroke: yellow; */
   z-index: 999;
 }
 
@@ -277,7 +276,6 @@
   }
   .aboutme-swiper {
     width: 600px;
-    /* margin-right: 64px; */
   }
 
   .aboutme-slide {
@@ -296,13 +294,12 @@
   .aboutme-swiper-container {
     width: 1312px;
   }
-  /* .swiper, */
+
   .aboutme-swiper {
     width: 1200px;
-    /* margin-right: 72px; */
   }
 }
-/* #endregion: facking.SWIPER -------------------- */
+/* #endregion: SWIPER -------------------- */
 
 /* #region: accordion --------------------*/
 .aboutme-accordion-item.js-enabled .aboutme-accordion-panel {
